@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新增产品</title>
+</head>
+
+<body>
+
+<form id="form1" name="form1" method="get" action="/gzlc/gzlc_db.php">
+<input name="where" type="hidden" value="xzcp_a" />
+<p><label>品牌：</label>
+  <input type="text" name="ppai" id="textfield" /></p>
+<p> <label>款号：</label>
+  <input type="text" name="khao" id="textfield" /></p>
+<p><label>有价格：</label><input name="zliao[]" type="checkbox" value="11" /></p>
+<p><label>有资料：</label><input name="zliao[]" type="checkbox" value="21" /></p>
+<p><label>有图片：</label><input name="zliao[]" type="checkbox" value="31" /></p>
+<p><label>有样品：</label><input name="zliao[]" type="checkbox" value="41" /></p>
+<p><label>有属性表：</label><input name="zliao[]" type="checkbox" value="51" /></p>
+<p><label>备注：</label><textarea name="bzu" cols="" rows=""></textarea></p>
+<input type="submit" name="button" id="button" value="添加产品" />
+</form>
+
+</body>
+</html>
